@@ -31,7 +31,7 @@ fifteen_balldrop = 1;
 /// @DnDAction : YoYo Games.Instances.Sprite_Scale
 /// @DnDVersion : 1
 /// @DnDHash : 45BE863B
-/// @DnDArgument : "xscale" "5"
-/// @DnDArgument : "yscale" "5"
-image_xscale = 5;
-image_yscale = 5;
+/// @DnDArgument : "xscale" "0.35"
+/// @DnDArgument : "yscale" "0.35"
+image_xscale = 0.35;
+image_yscale = 0.35;
