@@ -37,6 +37,14 @@ if(gamepad_is_connected(l6750DE43_0) && gamepad_button_check_pressed(l6750DE43_0
 		
 		}
 	
+		/// @DnDAction : YoYo Games.Audio.Play_Audio
+		/// @DnDVersion : 1
+		/// @DnDHash : 4629DEA0
+		/// @DnDParent : 252C1C76
+		/// @DnDArgument : "soundid" "sound0"
+		/// @DnDSaveInfo : "soundid" "4e0d08f9-6072-4d65-a48a-88ac51037257"
+		audio_play_sound(sound0, 0, 0);
+	
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 14F20FAC

@@ -64,5 +64,13 @@ if(gamepad_is_connected(l3803F265_0) && gamepad_button_check_pressed(l3803F265_0
 		/// @DnDSaveInfo : "spriteind" "049cf973-29ae-4c1a-9c38-612ecd490cd7"
 		sprite_index = spr_playercd;
 		image_index = 0;
+	
+		/// @DnDAction : YoYo Games.Audio.Play_Audio
+		/// @DnDVersion : 1
+		/// @DnDHash : 09EBBB3C
+		/// @DnDParent : 73F20BC7
+		/// @DnDArgument : "soundid" "sound0"
+		/// @DnDSaveInfo : "soundid" "4e0d08f9-6072-4d65-a48a-88ac51037257"
+		audio_play_sound(sound0, 0, 0);
 	}
 }

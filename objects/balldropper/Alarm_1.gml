@@ -1,12 +1,3 @@
-/// @DnDAction : YoYo Games.Random.Get_Random_Number
-/// @DnDVersion : 1
-/// @DnDHash : 1A280CFB
-/// @DnDArgument : "var" "ballpick"
-/// @DnDArgument : "type" "1"
-/// @DnDArgument : "min" "1"
-/// @DnDArgument : "max" "3"
-ballpick = floor(random_range(1, 3 + 1));
-
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 51D91987
