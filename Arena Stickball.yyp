@@ -359,14 +359,6 @@
             }
         },
         {
-            "Key": "d5fc0205-4c25-4ea5-af41-8c4466eb5289",
-            "Value": {
-                "id": "b270fc8f-1935-45bc-b736-6323c85e8f1f",
-                "resourcePath": "timelines\\timeline0\\timeline0.yy",
-                "resourceType": "GMTimeline"
-            }
-        },
-        {
             "Key": "dca3ccea-2bb2-48f8-aa5e-ba02ea580bc6",
             "Value": {
                 "id": "9a443abb-5efd-47d6-ad3b-04007ab1dfdf",
