@@ -79,14 +79,6 @@
             }
         },
         {
-            "Key": "250ed198-b7ba-43e7-857b-ffcb19fc682f",
-            "Value": {
-                "id": "45f5824a-7349-4a98-9682-3a45e76d1fad",
-                "resourcePath": "sounds\\hit\\hit.yy",
-                "resourceType": "GMSound"
-            }
-        },
-        {
             "Key": "26653822-3ec3-422f-9150-8cdddd36d08a",
             "Value": {
                 "id": "e5c3c228-1e0b-440f-99da-d5e2b4d436f5",
