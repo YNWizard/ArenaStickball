@@ -22,9 +22,9 @@ if(speedball < -2)
 	/// @DnDVersion : 1
 	/// @DnDHash : 3425E2AB
 	/// @DnDParent : 010B5F50
-	/// @DnDArgument : "expr" "speedball - (speedball / 5)"
+	/// @DnDArgument : "expr" "speedball - (speedball / 10)"
 	/// @DnDArgument : "var" "speedball"
-	speedball = speedball - (speedball / 5);
+	speedball = speedball - (speedball / 10);
 }
 
 /// @DnDAction : YoYo Games.Common.Else
