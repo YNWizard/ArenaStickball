@@ -49,10 +49,10 @@ else
 /// @DnDVersion : 1
 /// @DnDHash : 4C7899B1
 /// @DnDApplyTo : 6e3fc5fd-d5e3-42ce-8a7a-0dbe29777809
-/// @DnDArgument : "steps" "90"
+/// @DnDArgument : "steps" "180"
 /// @DnDArgument : "alarm" "1"
 with(balldropper) {
-alarm_set(1, 90);
+alarm_set(1, 180);
 
 }
 
