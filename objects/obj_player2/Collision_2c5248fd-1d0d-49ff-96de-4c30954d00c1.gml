@@ -24,6 +24,23 @@ if(gamepad_is_connected(l2433A33F_0) && gamepad_button_check_pressed(l2433A33F_0
 		/// @DnDArgument : "y" "obj_player2.y"
 		with(other) direction = point_direction(x, y, obj_player2.x, obj_player2.y);
 	
+		/// @DnDAction : YoYo Games.Audio.Audio_Set_Pitch
+		/// @DnDVersion : 1
+		/// @DnDHash : 6CA12F48
+		/// @DnDParent : 1E54F690
+		/// @DnDArgument : "sound" "hit2"
+		/// @DnDArgument : "pitch" "random_range(0.75, 1.5)"
+		/// @DnDSaveInfo : "sound" "2c2ee68e-5681-497f-9759-3798d805c711"
+		audio_sound_pitch(hit2, random_range(0.75, 1.5));
+	
+		/// @DnDAction : YoYo Games.Audio.Play_Audio
+		/// @DnDVersion : 1
+		/// @DnDHash : 156BAC6A
+		/// @DnDParent : 1E54F690
+		/// @DnDArgument : "soundid" "hit2"
+		/// @DnDSaveInfo : "soundid" "2c2ee68e-5681-497f-9759-3798d805c711"
+		audio_play_sound(hit2, 0, 0);
+	
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 0E3B796F

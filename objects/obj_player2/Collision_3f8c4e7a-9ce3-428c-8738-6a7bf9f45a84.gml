@@ -57,6 +57,23 @@ if(gamepad_is_connected(l1EE159AC_0) && gamepad_button_check_pressed(l1EE159AC_0
 		/// @DnDArgument : "var" "cooldown"
 		cooldown = 20;
 	
+		/// @DnDAction : YoYo Games.Audio.Audio_Set_Pitch
+		/// @DnDVersion : 1
+		/// @DnDHash : 4BD7BDB6
+		/// @DnDParent : 73F20BC7
+		/// @DnDArgument : "sound" "hit2"
+		/// @DnDArgument : "pitch" "random_range(0.75, 1.5)"
+		/// @DnDSaveInfo : "sound" "2c2ee68e-5681-497f-9759-3798d805c711"
+		audio_sound_pitch(hit2, random_range(0.75, 1.5));
+	
+		/// @DnDAction : YoYo Games.Audio.Play_Audio
+		/// @DnDVersion : 1
+		/// @DnDHash : 6F68D8D3
+		/// @DnDParent : 73F20BC7
+		/// @DnDArgument : "soundid" "hit2"
+		/// @DnDSaveInfo : "soundid" "2c2ee68e-5681-497f-9759-3798d805c711"
+		audio_play_sound(hit2, 0, 0);
+	
 		/// @DnDAction : YoYo Games.Instances.Set_Sprite
 		/// @DnDVersion : 1
 		/// @DnDHash : 2522D2C3

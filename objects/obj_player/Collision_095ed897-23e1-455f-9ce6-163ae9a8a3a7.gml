@@ -64,5 +64,22 @@ if(gamepad_is_connected(l3803F265_0) && gamepad_button_check_pressed(l3803F265_0
 		/// @DnDSaveInfo : "spriteind" "049cf973-29ae-4c1a-9c38-612ecd490cd7"
 		sprite_index = spr_playercd;
 		image_index = 0;
+	
+		/// @DnDAction : YoYo Games.Audio.Audio_Set_Pitch
+		/// @DnDVersion : 1
+		/// @DnDHash : 6A397DEB
+		/// @DnDParent : 73F20BC7
+		/// @DnDArgument : "sound" "hit"
+		/// @DnDArgument : "pitch" "random_range(0.75, 1.5)"
+		/// @DnDSaveInfo : "sound" "250ed198-b7ba-43e7-857b-ffcb19fc682f"
+		audio_sound_pitch(hit, random_range(0.75, 1.5));
+	
+		/// @DnDAction : YoYo Games.Audio.Play_Audio
+		/// @DnDVersion : 1
+		/// @DnDHash : 4112027B
+		/// @DnDParent : 73F20BC7
+		/// @DnDArgument : "soundid" "hit"
+		/// @DnDSaveInfo : "soundid" "250ed198-b7ba-43e7-857b-ffcb19fc682f"
+		audio_play_sound(hit, 0, 0);
 	}
 }
