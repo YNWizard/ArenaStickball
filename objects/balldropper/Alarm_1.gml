@@ -1,54 +1,11 @@
 /// @DnDAction : YoYo Games.Random.Get_Random_Number
 /// @DnDVersion : 1
-/// @DnDHash : 4A1DDBD9
+/// @DnDHash : 1A280CFB
 /// @DnDArgument : "var" "ballpick"
 /// @DnDArgument : "type" "1"
 /// @DnDArgument : "min" "1"
 /// @DnDArgument : "max" "3"
 ballpick = floor(random_range(1, 3 + 1));
-
-/// @DnDAction : YoYo Games.Common.If_Variable
-/// @DnDVersion : 1
-/// @DnDHash : 7C5BC774
-/// @DnDArgument : "var" "ballpick"
-/// @DnDArgument : "value" "1"
-if(ballpick == 1)
-{
-	/// @DnDAction : YoYo Games.Common.If_Variable
-	/// @DnDVersion : 1
-	/// @DnDHash : 707EC711
-	/// @DnDParent : 7C5BC774
-	/// @DnDArgument : "var" "one_balldrop"
-	if(one_balldrop == 0)
-	{
-		/// @DnDAction : YoYo Games.Instances.Create_Instance
-		/// @DnDVersion : 1
-		/// @DnDHash : 270D98DF
-		/// @DnDParent : 707EC711
-		/// @DnDArgument : "xpos" "room_width / 2"
-		/// @DnDArgument : "ypos" "room_height / 2"
-		/// @DnDArgument : "objectid" "obj_1ball"
-		/// @DnDSaveInfo : "objectid" "e9d16825-f808-4507-bf98-ab7112043d1a"
-		instance_create_layer(room_width / 2, room_height / 2, "Instances", obj_1ball);
-	}
-
-	/// @DnDAction : YoYo Games.Common.Else
-	/// @DnDVersion : 1
-	/// @DnDHash : 438AB4DE
-	/// @DnDParent : 7C5BC774
-	else
-	{
-		/// @DnDAction : YoYo Games.Random.Get_Random_Number
-		/// @DnDVersion : 1
-		/// @DnDHash : 5B7F6825
-		/// @DnDParent : 438AB4DE
-		/// @DnDArgument : "var" "ballpick"
-		/// @DnDArgument : "type" "1"
-		/// @DnDArgument : "min" "1"
-		/// @DnDArgument : "max" "3"
-		ballpick = floor(random_range(1, 3 + 1));
-	}
-}
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
@@ -85,6 +42,49 @@ if(ballpick == 3)
 		/// @DnDVersion : 1
 		/// @DnDHash : 346A47B7
 		/// @DnDParent : 0AF739BC
+		/// @DnDArgument : "var" "ballpick"
+		/// @DnDArgument : "type" "1"
+		/// @DnDArgument : "min" "1"
+		/// @DnDArgument : "max" "3"
+		ballpick = floor(random_range(1, 3 + 1));
+	}
+}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 7C5BC774
+/// @DnDArgument : "var" "ballpick"
+/// @DnDArgument : "value" "1"
+if(ballpick == 1)
+{
+	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 707EC711
+	/// @DnDParent : 7C5BC774
+	/// @DnDArgument : "var" "one_balldrop"
+	if(one_balldrop == 0)
+	{
+		/// @DnDAction : YoYo Games.Instances.Create_Instance
+		/// @DnDVersion : 1
+		/// @DnDHash : 270D98DF
+		/// @DnDParent : 707EC711
+		/// @DnDArgument : "xpos" "room_width / 2"
+		/// @DnDArgument : "ypos" "room_height / 2"
+		/// @DnDArgument : "objectid" "obj_1ball"
+		/// @DnDSaveInfo : "objectid" "e9d16825-f808-4507-bf98-ab7112043d1a"
+		instance_create_layer(room_width / 2, room_height / 2, "Instances", obj_1ball);
+	}
+
+	/// @DnDAction : YoYo Games.Common.Else
+	/// @DnDVersion : 1
+	/// @DnDHash : 438AB4DE
+	/// @DnDParent : 7C5BC774
+	else
+	{
+		/// @DnDAction : YoYo Games.Random.Get_Random_Number
+		/// @DnDVersion : 1
+		/// @DnDHash : 5B7F6825
+		/// @DnDParent : 438AB4DE
 		/// @DnDArgument : "var" "ballpick"
 		/// @DnDArgument : "type" "1"
 		/// @DnDArgument : "min" "1"

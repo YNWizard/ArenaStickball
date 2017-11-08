@@ -57,14 +57,6 @@ if(gamepad_is_connected(l1EE159AC_0) && gamepad_button_check_pressed(l1EE159AC_0
 		/// @DnDArgument : "var" "cooldown"
 		cooldown = 20;
 	
-		/// @DnDAction : YoYo Games.Audio.Play_Audio
-		/// @DnDVersion : 1
-		/// @DnDHash : 689C6614
-		/// @DnDParent : 73F20BC7
-		/// @DnDArgument : "soundid" "sound0"
-		/// @DnDSaveInfo : "soundid" "4e0d08f9-6072-4d65-a48a-88ac51037257"
-		audio_play_sound(sound0, 0, 0);
-	
 		/// @DnDAction : YoYo Games.Instances.Set_Sprite
 		/// @DnDVersion : 1
 		/// @DnDHash : 2522D2C3

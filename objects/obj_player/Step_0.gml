@@ -1,12 +1,12 @@
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 51A12ECA
-/// @DnDArgument : "code" "var h_move = gamepad_axis_value(0, gp_axislh);$(13_10)var v_move = gamepad_axis_value(0, gp_axislv);$(13_10)if ((h_move != 0) || (v_move != 0))$(13_10){$(13_10)x += h_move * 30;$(13_10)y += v_move * 30;$(13_10)}$(13_10)var h_point = gamepad_axis_value(0, gp_axisrh);$(13_10)var v_point = gamepad_axis_value(0, gp_axisrv);$(13_10)if ((h_point != 0) || (v_point != 0))$(13_10){$(13_10)var pdir = point_direction(0, 0, h_point, v_point);$(13_10)image_angle = pdir;$(13_10)}"
+/// @DnDArgument : "code" "var h_move = gamepad_axis_value(0, gp_axislh);$(13_10)var v_move = gamepad_axis_value(0, gp_axislv);$(13_10)if ((h_move != 0) || (v_move != 0))$(13_10){$(13_10)x += h_move * 20;$(13_10)y += v_move * 30;$(13_10)}$(13_10)var h_point = gamepad_axis_value(0, gp_axisrh);$(13_10)var v_point = gamepad_axis_value(0, gp_axisrv);$(13_10)if ((h_point != 0) || (v_point != 0))$(13_10){$(13_10)var pdir = point_direction(0, 0, h_point, v_point);$(13_10)image_angle = pdir;$(13_10)}"
 var h_move = gamepad_axis_value(0, gp_axislh);
 var v_move = gamepad_axis_value(0, gp_axislv);
 if ((h_move != 0) || (v_move != 0))
 {
-x += h_move * 30;
+x += h_move * 20;
 y += v_move * 30;
 }
 var h_point = gamepad_axis_value(0, gp_axisrh);

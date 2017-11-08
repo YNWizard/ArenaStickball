@@ -1,6 +1,6 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
-/// @DnDHash : 2BB54F0F
+/// @DnDHash : 799D5A68
 /// @DnDArgument : "var" "ballpick"
 ballpick = 0;
 
