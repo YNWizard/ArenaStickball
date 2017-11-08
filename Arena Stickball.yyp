@@ -154,7 +154,7 @@
             "Key": "4e0d08f9-6072-4d65-a48a-88ac51037257",
             "Value": {
                 "id": "47524d3d-1ac1-47ae-9c63-1993a774100f",
-                "resourcePath": "sounds\\sound0\\sound0.yy",
+                "resourcePath": "sounds\\win\\win.yy",
                 "resourceType": "GMSound"
             }
         },

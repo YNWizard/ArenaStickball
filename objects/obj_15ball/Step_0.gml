@@ -4,6 +4,12 @@
 /// @DnDArgument : "speed" "speedball"
 speed = speedball;
 
+/// @DnDAction : YoYo Games.Instances.Sprite_Rotate
+/// @DnDVersion : 1
+/// @DnDHash : 42DB7967
+/// @DnDArgument : "angle" "direction"
+image_angle = direction;
+
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 10B30252
