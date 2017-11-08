@@ -53,9 +53,9 @@ if(gamepad_is_connected(l1EE159AC_0) && gamepad_button_check_pressed(l1EE159AC_0
 		/// @DnDVersion : 1
 		/// @DnDHash : 36191FC8
 		/// @DnDParent : 73F20BC7
-		/// @DnDArgument : "expr" "20"
+		/// @DnDArgument : "expr" "40"
 		/// @DnDArgument : "var" "cooldown"
-		cooldown = 20;
+		cooldown = 40;
 	
 		/// @DnDAction : YoYo Games.Audio.Audio_Set_Pitch
 		/// @DnDVersion : 1

@@ -52,9 +52,9 @@ if(gamepad_is_connected(l3803F265_0) && gamepad_button_check_pressed(l3803F265_0
 		/// @DnDVersion : 1
 		/// @DnDHash : 625D36E5
 		/// @DnDParent : 73F20BC7
-		/// @DnDArgument : "expr" "20"
+		/// @DnDArgument : "expr" "40"
 		/// @DnDArgument : "var" "cooldown"
-		cooldown = 20;
+		cooldown = 40;
 	
 		/// @DnDAction : YoYo Games.Instances.Set_Sprite
 		/// @DnDVersion : 1
