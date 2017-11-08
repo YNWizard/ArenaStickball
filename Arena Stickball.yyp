@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "2c2ee68e-5681-497f-9759-3798d805c711",
+            "Value": {
+                "id": "295201be-ea71-4635-b52d-0b829cf3a5b0",
+                "resourcePath": "sounds\\hit2\\hit2.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "2d6274e6-8d7f-4632-a639-8b5ebf00308b",
             "Value": {
                 "id": "064614fd-0efc-42b8-8a43-7a7f7648d8eb",
