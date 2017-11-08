@@ -271,6 +271,14 @@
             }
         },
         {
+            "Key": "92d29d7e-da43-4a24-b891-4641c78d081c",
+            "Value": {
+                "id": "f8cdaf55-cbc6-4bc1-9dd0-8cb4731793db",
+                "resourcePath": "sprites\\spr_1ballmove\\spr_1ballmove.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "944a934a-3757-4c77-8e21-c5c0ceea2206",
             "Value": {
                 "id": "754a9360-b1ee-4206-8849-cf13dd28dab9",
