@@ -3,8 +3,8 @@
 /// @DnDHash : 5CEE0E19
 /// @DnDArgument : "var" "image_xscale"
 /// @DnDArgument : "op" "2"
-/// @DnDArgument : "value" "0.25"
-if(image_xscale > 0.25)
+/// @DnDArgument : "value" "0.5"
+if(image_xscale > 0.5)
 {
 	/// @DnDAction : YoYo Games.Instances.Sprite_Scale
 	/// @DnDVersion : 1

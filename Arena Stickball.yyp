@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "142f5223-838c-442d-bb4e-34d547ba4355",
+            "Value": {
+                "id": "478bf13d-07cf-4766-bad9-30486511d29d",
+                "resourcePath": "sounds\\woosh\\woosh.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "250ed198-b7ba-43e7-857b-ffcb19fc682f",
             "Value": {
                 "id": "45f5824a-7349-4a98-9682-3a45e76d1fad",

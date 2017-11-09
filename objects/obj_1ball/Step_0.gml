@@ -3,8 +3,8 @@
 /// @DnDHash : 3E48AA98
 /// @DnDArgument : "var" "image_xscale"
 /// @DnDArgument : "op" "2"
-/// @DnDArgument : "value" "0.25"
-if(image_xscale > 0.25)
+/// @DnDArgument : "value" "0.5"
+if(image_xscale > 0.5)
 {
 	/// @DnDAction : YoYo Games.Instances.Sprite_Scale
 	/// @DnDVersion : 1
@@ -42,25 +42,35 @@ image_angle = direction;
 /// @DnDHash : 010B5F50
 /// @DnDArgument : "var" "speedball"
 /// @DnDArgument : "op" "1"
-/// @DnDArgument : "value" "-1.2"
-if(speedball < -1.2)
+/// @DnDArgument : "value" "-0.7"
+if(speedball < -0.7)
 {
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 3425E2AB
 	/// @DnDParent : 010B5F50
-	/// @DnDArgument : "expr" "speedball - (speedball / 5)"
+	/// @DnDArgument : "expr" "speedball - (speedball / 13)"
 	/// @DnDArgument : "var" "speedball"
-	speedball = speedball - (speedball / 5);
+	speedball = speedball - (speedball / 13);
 
 	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 	/// @DnDVersion : 1
-	/// @DnDHash : 7DED2E63
+	/// @DnDHash : 718215B4
 	/// @DnDParent : 010B5F50
-	/// @DnDArgument : "spriteind" "spr_1ball"
-	/// @DnDSaveInfo : "spriteind" "344c5db0-6193-42ae-954b-b7ef1ec98951"
-	sprite_index = spr_1ball;
-	image_index = 0;
+	/// @DnDArgument : "imageind_relative" "1"
+	/// @DnDArgument : "spriteind" "spr_1ballmove"
+	/// @DnDSaveInfo : "spriteind" "92d29d7e-da43-4a24-b891-4641c78d081c"
+	sprite_index = spr_1ballmove;
+	image_index += 0;
+
+	/// @DnDAction : YoYo Games.Audio.Play_Audio
+	/// @DnDVersion : 1
+	/// @DnDHash : 365A0F6F
+	/// @DnDParent : 010B5F50
+	/// @DnDArgument : "soundid" "woosh"
+	/// @DnDArgument : "loop" "1"
+	/// @DnDSaveInfo : "soundid" "142f5223-838c-442d-bb4e-34d547ba4355"
+	audio_play_sound(woosh, 0, 1);
 }
 
 /// @DnDAction : YoYo Games.Common.Else
@@ -70,13 +80,20 @@ else
 {
 	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 	/// @DnDVersion : 1
-	/// @DnDHash : 39FAD899
+	/// @DnDHash : 3B01C691
 	/// @DnDParent : 0A9B82BC
-	/// @DnDArgument : "imageind_relative" "1"
-	/// @DnDArgument : "spriteind" "spr_1ballmove"
-	/// @DnDSaveInfo : "spriteind" "92d29d7e-da43-4a24-b891-4641c78d081c"
-	sprite_index = spr_1ballmove;
-	image_index += 0;
+	/// @DnDArgument : "spriteind" "spr_1ball"
+	/// @DnDSaveInfo : "spriteind" "344c5db0-6193-42ae-954b-b7ef1ec98951"
+	sprite_index = spr_1ball;
+	image_index = 0;
+
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 47997CC9
+	/// @DnDParent : 0A9B82BC
+	/// @DnDArgument : "expr" "speedball - (speedball / 2)"
+	/// @DnDArgument : "var" "speedball"
+	speedball = speedball - (speedball / 2);
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
