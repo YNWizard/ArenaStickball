@@ -1,8 +1,35 @@
-/// @DnDAction : YoYo Games.Movement.Set_Speed
+/// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
-/// @DnDHash : 3B08AA89
-/// @DnDArgument : "speed" "speedball"
-speed = speedball;
+/// @DnDHash : 5CEE0E19
+/// @DnDArgument : "var" "image_xscale"
+/// @DnDArgument : "op" "2"
+/// @DnDArgument : "value" "0.25"
+if(image_xscale > 0.25)
+{
+	/// @DnDAction : YoYo Games.Instances.Sprite_Scale
+	/// @DnDVersion : 1
+	/// @DnDHash : 289B84B7
+	/// @DnDParent : 5CEE0E19
+	/// @DnDArgument : "xscale" "-0.25"
+	/// @DnDArgument : "xscale_relative" "1"
+	/// @DnDArgument : "yscale" "-0.25"
+	/// @DnDArgument : "yscale_relative" "1"
+	image_xscale += -0.25;
+	image_yscale += -0.25;
+}
+
+/// @DnDAction : YoYo Games.Common.Else
+/// @DnDVersion : 1
+/// @DnDHash : 232C63A2
+else
+{
+	/// @DnDAction : YoYo Games.Movement.Set_Speed
+	/// @DnDVersion : 1
+	/// @DnDHash : 6E132F9B
+	/// @DnDParent : 232C63A2
+	/// @DnDArgument : "speed" "speedball"
+	speed = speedball;
+}
 
 /// @DnDAction : YoYo Games.Instances.Sprite_Rotate
 /// @DnDVersion : 1
