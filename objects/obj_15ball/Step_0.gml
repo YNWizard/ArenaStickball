@@ -6,6 +6,14 @@
 /// @DnDArgument : "value" "0.5"
 if(image_xscale > 0.5)
 {
+	/// @DnDAction : YoYo Games.Instances.Sprite_Image_Alpha
+	/// @DnDVersion : 1
+	/// @DnDHash : 53FC9B0D
+	/// @DnDParent : 5B18FCA9
+	/// @DnDArgument : "alpha" "0.09"
+	/// @DnDArgument : "alpha_relative" "1"
+	image_alpha += 0.09;
+
 	/// @DnDAction : YoYo Games.Instances.Sprite_Scale
 	/// @DnDVersion : 1
 	/// @DnDHash : 5C01F93D

@@ -10,6 +10,12 @@ playerlast = 0;
 /// @DnDArgument : "var" "speedball"
 speedball = 0;
 
+/// @DnDAction : YoYo Games.Instances.Sprite_Image_Alpha
+/// @DnDVersion : 1
+/// @DnDHash : 6E7011EF
+/// @DnDArgument : "alpha" "0"
+image_alpha = 0;
+
 /// @DnDAction : YoYo Games.Movement.Set_Direction_Point
 /// @DnDVersion : 1
 /// @DnDHash : 1E9A9265

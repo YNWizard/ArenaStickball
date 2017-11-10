@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "1a60f5da-1573-455a-8cf2-0172592219d9",
+            "Value": {
+                "id": "0b59c1de-f4e5-47c9-b7ba-6d3562046a62",
+                "resourcePath": "sprites\\spr_blugoal\\spr_blugoal.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "250ed198-b7ba-43e7-857b-ffcb19fc682f",
             "Value": {
                 "id": "45f5824a-7349-4a98-9682-3a45e76d1fad",
@@ -239,10 +247,18 @@
             }
         },
         {
+            "Key": "783c53ab-98b0-486e-aa95-3225f9ff5595",
+            "Value": {
+                "id": "b8b2e8e8-d804-488a-8074-2f6c02e2ff6b",
+                "resourcePath": "objects\\bluegoal\\bluegoal.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7c560a15-d8a2-4c17-a0a1-2b3ecbda40ff",
             "Value": {
                 "id": "b08a57f6-1823-4e36-8b88-0d05140634f9",
-                "resourcePath": "objects\\goal\\goal.yy",
+                "resourcePath": "objects\\redgoal\\redgoal.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -346,7 +362,7 @@
             "Key": "be05cb62-e50c-4264-a22d-f067884f8bb3",
             "Value": {
                 "id": "9c887ff5-57f2-4597-a02b-8ffffb338c9a",
-                "resourcePath": "sprites\\spr_goal\\spr_goal.yy",
+                "resourcePath": "sprites\\spr_redgoal\\spr_redgoal.yy",
                 "resourceType": "GMSprite"
             }
         },

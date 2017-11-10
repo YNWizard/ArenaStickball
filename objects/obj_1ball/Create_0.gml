@@ -35,3 +35,9 @@ one_balldrop = 1;
 /// @DnDArgument : "yscale" "5"
 image_xscale = 5;
 image_yscale = 5;
+
+/// @DnDAction : YoYo Games.Instances.Sprite_Image_Alpha
+/// @DnDVersion : 1
+/// @DnDHash : 2AF7B10A
+/// @DnDArgument : "alpha" "0"
+image_alpha = 0;
