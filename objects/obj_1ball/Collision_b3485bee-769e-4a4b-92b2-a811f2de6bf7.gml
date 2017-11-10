@@ -1,10 +1,14 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 7108CFF2
+/// @DnDApplyTo : be587a13-faef-4223-943f-3e6409ebbdea
 /// @DnDArgument : "expr" "1"
 /// @DnDArgument : "expr_relative" "1"
 /// @DnDArgument : "var" "player2score"
+with(scoring) {
 player2score += 1;
+
+}
 
 /// @DnDAction : YoYo Games.Audio.Play_Audio
 /// @DnDVersion : 1
