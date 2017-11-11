@@ -87,14 +87,6 @@
             }
         },
         {
-            "Key": "1a60f5da-1573-455a-8cf2-0172592219d9",
-            "Value": {
-                "id": "0b59c1de-f4e5-47c9-b7ba-6d3562046a62",
-                "resourcePath": "sprites\\spr_blugoal\\spr_blugoal.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "250ed198-b7ba-43e7-857b-ffcb19fc682f",
             "Value": {
                 "id": "45f5824a-7349-4a98-9682-3a45e76d1fad",
@@ -247,14 +239,6 @@
             }
         },
         {
-            "Key": "783c53ab-98b0-486e-aa95-3225f9ff5595",
-            "Value": {
-                "id": "b8b2e8e8-d804-488a-8074-2f6c02e2ff6b",
-                "resourcePath": "objects\\bluegoal\\bluegoal.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "7c560a15-d8a2-4c17-a0a1-2b3ecbda40ff",
             "Value": {
                 "id": "b08a57f6-1823-4e36-8b88-0d05140634f9",
@@ -292,6 +276,14 @@
                 "id": "2f5c63e8-ac06-4f61-b872-431d805eaef2",
                 "resourcePath": "options\\ios\\options_ios.yy",
                 "resourceType": "GMiOSOptions"
+            }
+        },
+        {
+            "Key": "8fa8c187-f64b-46e9-b464-143c1114c4d8",
+            "Value": {
+                "id": "09b519c3-d7f6-4f92-9fab-7a5d4ba57d95",
+                "resourcePath": "objects\\blugoal\\blugoal.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -436,6 +428,14 @@
                 "id": "1613ef44-aade-446c-a197-fc0860edabc0",
                 "resourcePath": "objects\\obj_1ball\\obj_1ball.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e9dffabd-d1d7-4eae-83b3-2369aad325b6",
+            "Value": {
+                "id": "11a4bc1e-6b3d-4ad0-9faa-2fa72cfe5411",
+                "resourcePath": "sprites\\spr_bluegoal\\spr_bluegoal.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

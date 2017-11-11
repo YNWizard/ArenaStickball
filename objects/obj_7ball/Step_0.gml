@@ -16,14 +16,6 @@ if(image_xscale > 0.5)
 	/// @DnDArgument : "yscale_relative" "1"
 	image_xscale += -0.25;
 	image_yscale += -0.25;
-
-	/// @DnDAction : YoYo Games.Instances.Sprite_Image_Alpha
-	/// @DnDVersion : 1
-	/// @DnDHash : 37FA7C8E
-	/// @DnDParent : 5CEE0E19
-	/// @DnDArgument : "alpha" "0.09"
-	/// @DnDArgument : "alpha_relative" "1"
-	image_alpha += 0.09;
 }
 
 /// @DnDAction : YoYo Games.Common.Else

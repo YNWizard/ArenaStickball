@@ -1,8 +1,8 @@
 {
-    "id": "783c53ab-98b0-486e-aa95-3225f9ff5595",
+    "id": "8fa8c187-f64b-46e9-b464-143c1114c4d8",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "bluegoal",
+    "name": "blugoal",
     "eventList": [
         
     ],
@@ -22,6 +22,6 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "solid": false,
-    "spriteId": "1a60f5da-1573-455a-8cf2-0172592219d9",
+    "spriteId": "e9dffabd-d1d7-4eae-83b3-2369aad325b6",
     "visible": true
 }

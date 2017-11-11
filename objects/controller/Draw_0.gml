@@ -4,8 +4,6 @@ var xx = 10;
 var yy = 10 + (160 * i);
 if gamepad_is_connected(i)
     {
-	draw_set_halign(fa_left);
-	draw_set_valign(fa_middle);
 	draw_set_font(font1);
 	draw_set_color(c_green);
     draw_text(xx, yy, "Gamepad Slot - " + string(i));
