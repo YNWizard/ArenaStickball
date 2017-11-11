@@ -68,9 +68,8 @@ if(speedball < -0.7)
 	/// @DnDHash : 365A0F6F
 	/// @DnDParent : 010B5F50
 	/// @DnDArgument : "soundid" "woosh"
-	/// @DnDArgument : "loop" "1"
 	/// @DnDSaveInfo : "soundid" "142f5223-838c-442d-bb4e-34d547ba4355"
-	audio_play_sound(woosh, 0, 1);
+	audio_play_sound(woosh, 0, 0);
 }
 
 /// @DnDAction : YoYo Games.Common.Else
