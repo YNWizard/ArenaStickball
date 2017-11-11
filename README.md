@@ -4,7 +4,7 @@
 
 -add more polish texture/gameplay-wise
 
-##Bugs:
+## Bugs:
 -some balls dont spawn sometimes
 
 -players clip through walls
