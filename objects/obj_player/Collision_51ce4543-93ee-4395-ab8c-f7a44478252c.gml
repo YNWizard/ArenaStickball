@@ -28,11 +28,11 @@ if(gamepad_is_connected(l3F3FC5CB_0) && gamepad_button_check_released(l3F3FC5CB_
 		/// @DnDHash : 69C46FEF
 		/// @DnDApplyTo : other
 		/// @DnDParent : 387C1926
-		/// @DnDArgument : "expr" "-50 + chargeshot"
+		/// @DnDArgument : "expr" "-50"
 		/// @DnDArgument : "expr_relative" "1"
 		/// @DnDArgument : "var" "speedball"
 		with(other) {
-		speedball += -50 + chargeshot;
+		speedball += -50;
 		
 		}
 	
@@ -73,12 +73,8 @@ if(gamepad_is_connected(l3F3FC5CB_0) && gamepad_button_check_released(l3F3FC5CB_
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 08B3C6C9
-		/// @DnDApplyTo : all
 		/// @DnDParent : 387C1926
 		/// @DnDArgument : "var" "chargeshot"
-		with(all) {
 		chargeshot = 0;
-		
-		}
 	}
 }

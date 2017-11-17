@@ -1,0 +1,12 @@
+BUGS
+-----------
+no ball spawns after 7 ball for some reason
+
+FEATURES
+-----------
+chargeshot
+freeze-frame during critical chargeshot
+more balls
+better textures and animations
+main menu
+pause menu

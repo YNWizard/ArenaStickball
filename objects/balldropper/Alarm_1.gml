@@ -43,6 +43,12 @@ if(ballpick == 3)
 	/// @DnDParent : 51D91987
 	else
 	{
+		/// @DnDAction : YoYo Games.Random.Randomize
+		/// @DnDVersion : 1
+		/// @DnDHash : 0FE80970
+		/// @DnDParent : 0AF739BC
+		randomize();
+	
 		/// @DnDAction : YoYo Games.Random.Get_Random_Number
 		/// @DnDVersion : 1
 		/// @DnDHash : 346A47B7
@@ -86,6 +92,12 @@ if(ballpick == 1)
 	/// @DnDParent : 7C5BC774
 	else
 	{
+		/// @DnDAction : YoYo Games.Random.Randomize
+		/// @DnDVersion : 1
+		/// @DnDHash : 776CC100
+		/// @DnDParent : 438AB4DE
+		randomize();
+	
 		/// @DnDAction : YoYo Games.Random.Get_Random_Number
 		/// @DnDVersion : 1
 		/// @DnDHash : 5B7F6825
@@ -129,6 +141,12 @@ if(ballpick == 2)
 	/// @DnDParent : 6E008308
 	else
 	{
+		/// @DnDAction : YoYo Games.Random.Randomize
+		/// @DnDVersion : 1
+		/// @DnDHash : 03B63346
+		/// @DnDParent : 4135A5DA
+		randomize();
+	
 		/// @DnDAction : YoYo Games.Random.Get_Random_Number
 		/// @DnDVersion : 1
 		/// @DnDHash : 7BB7A8A2

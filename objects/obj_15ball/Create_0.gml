@@ -35,3 +35,9 @@ fifteen_balldrop = 1;
 /// @DnDArgument : "yscale" "5"
 image_xscale = 5;
 image_yscale = 5;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 0050E94A
+/// @DnDArgument : "var" "chargeshot"
+chargeshot = 0;

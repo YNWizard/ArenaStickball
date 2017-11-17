@@ -303,6 +303,14 @@
             }
         },
         {
+            "Key": "97904b03-739b-4a07-bbf0-cbd884f85323",
+            "Value": {
+                "id": "7fce457e-a77a-4521-b2bf-84dddedb2a11",
+                "resourcePath": "notes\\changes.yy",
+                "resourceType": "GMNotes"
+            }
+        },
+        {
             "Key": "a8734d6c-99ab-4eb7-8d7f-9dfa90aa7298",
             "Value": {
                 "id": "bf290532-64f5-4678-a5b0-ddff30c95d99",

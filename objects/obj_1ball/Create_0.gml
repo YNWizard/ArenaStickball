@@ -1,12 +1,12 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
-/// @DnDHash : 54802BD2
-/// @DnDArgument : "var" "playerlast"
-playerlast = 0;
+/// @DnDHash : 66202B3B
+/// @DnDArgument : "var" "chargeshot"
+chargeshot = 0;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
-/// @DnDHash : 2D230AC6
+/// @DnDHash : 41166491
 /// @DnDArgument : "var" "speedball"
 speedball = 0;
 

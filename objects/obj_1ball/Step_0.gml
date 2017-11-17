@@ -47,7 +47,7 @@ if(speedball < -0.7)
 {
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
-	/// @DnDHash : 3425E2AB
+	/// @DnDHash : 7F64FC77
 	/// @DnDParent : 010B5F50
 	/// @DnDArgument : "expr" "speedball - (speedball / 13)"
 	/// @DnDArgument : "var" "speedball"
@@ -88,11 +88,11 @@ else
 
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
-	/// @DnDHash : 47997CC9
+	/// @DnDHash : 0C6B89A5
 	/// @DnDParent : 0A9B82BC
-	/// @DnDArgument : "expr" "speedball - (speedball / 2)"
+	/// @DnDArgument : "expr" "speedball - (speedball / 13)"
 	/// @DnDArgument : "var" "speedball"
-	speedball = speedball - (speedball / 2);
+	speedball = speedball - (speedball / 13);
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
@@ -102,11 +102,11 @@ else
 	/// @DnDArgument : "op" "4"
 	if(speedball >= 0)
 	{
-		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDAction : YoYo Games.Common.Set_Global
 		/// @DnDVersion : 1
-		/// @DnDHash : 339300EC
+		/// @DnDHash : 321280B0
 		/// @DnDParent : 36827AD8
 		/// @DnDArgument : "var" "speedball"
-		speedball = 0;
+		global.speedball = 0;
 	}
 }
