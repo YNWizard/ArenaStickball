@@ -102,11 +102,11 @@ else
 	/// @DnDArgument : "op" "4"
 	if(speedball >= 0)
 	{
-		/// @DnDAction : YoYo Games.Common.Set_Global
+		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
-		/// @DnDHash : 321280B0
+		/// @DnDHash : 240792A5
 		/// @DnDParent : 36827AD8
 		/// @DnDArgument : "var" "speedball"
-		global.speedball = 0;
+		speedball = 0;
 	}
 }
