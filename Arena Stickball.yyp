@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "1c59d681-e5f5-4b33-8417-fdac2e77574b",
+            "Value": {
+                "id": "67f14edb-851b-4d59-80a9-fa78f7dd75a8",
+                "resourcePath": "objects\\Cursor\\Cursor.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "250ed198-b7ba-43e7-857b-ffcb19fc682f",
             "Value": {
                 "id": "45f5824a-7349-4a98-9682-3a45e76d1fad",
@@ -215,11 +223,27 @@
             }
         },
         {
+            "Key": "6458a3e0-a91e-41db-95b1-4a26273191b0",
+            "Value": {
+                "id": "3ccca3d5-1b64-43e9-a2e8-ca1e10e7531d",
+                "resourcePath": "objects\\Exit\\Exit.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "687c2e5b-0a18-4819-b725-9d3f4f869dcf",
             "Value": {
                 "id": "24e86bf9-c967-4b27-afcc-1f11c041b962",
                 "resourcePath": "sprites\\spr_player2\\spr_player2.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6b98c9a4-98f5-47a7-bcf2-9795e6eb13bd",
+            "Value": {
+                "id": "aaa8fa22-e838-4c54-818f-aa0444570886",
+                "resourcePath": "rooms\\mainmenu\\mainmenu.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -308,6 +332,14 @@
                 "id": "7fce457e-a77a-4521-b2bf-84dddedb2a11",
                 "resourcePath": "notes\\changes.yy",
                 "resourceType": "GMNotes"
+            }
+        },
+        {
+            "Key": "9ead8d10-26b7-457f-8c9e-bade66fddb0d",
+            "Value": {
+                "id": "0e15c6b0-28d1-491c-996d-abf70fdf5417",
+                "resourcePath": "objects\\Start\\Start.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -468,6 +500,14 @@
                 "id": "8170f4b5-5088-4f20-a149-6e36960f42b6",
                 "resourcePath": "options\\xboxone\\options_xboxone.yy",
                 "resourceType": "GMXBoxOneOptions"
+            }
+        },
+        {
+            "Key": "fa585346-01ce-4d70-9a27-44bab68352b8",
+            "Value": {
+                "id": "75ee0add-ed8a-46de-8e7f-c5a38167768a",
+                "resourcePath": "sprites\\sprite11\\sprite11.yy",
+                "resourceType": "GMSprite"
             }
         }
     ],
