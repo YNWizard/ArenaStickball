@@ -9,8 +9,8 @@ randomize();
 /// @DnDArgument : "var" "ballpick"
 /// @DnDArgument : "type" "1"
 /// @DnDArgument : "min" "1"
-/// @DnDArgument : "max" "3"
-ballpick = floor(random_range(1, 3 + 1));
+/// @DnDArgument : "max" "4"
+ballpick = floor(random_range(1, 4 + 1));
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
@@ -43,16 +43,6 @@ if(ballpick == 3)
 	/// @DnDParent : 51D91987
 	else
 	{
-		/// @DnDAction : YoYo Games.Random.Get_Random_Number
-		/// @DnDVersion : 1
-		/// @DnDHash : 346A47B7
-		/// @DnDParent : 0AF739BC
-		/// @DnDArgument : "var" "ballpick"
-		/// @DnDArgument : "type" "1"
-		/// @DnDArgument : "min" "1"
-		/// @DnDArgument : "max" "3"
-		ballpick = floor(random_range(1, 3 + 1));
-	
 		/// @DnDAction : YoYo Games.Instances.Set_Alarm
 		/// @DnDVersion : 1
 		/// @DnDHash : 06422BC0
@@ -94,16 +84,6 @@ if(ballpick == 1)
 	/// @DnDParent : 7C5BC774
 	else
 	{
-		/// @DnDAction : YoYo Games.Random.Get_Random_Number
-		/// @DnDVersion : 1
-		/// @DnDHash : 5B7F6825
-		/// @DnDParent : 438AB4DE
-		/// @DnDArgument : "var" "ballpick"
-		/// @DnDArgument : "type" "1"
-		/// @DnDArgument : "min" "1"
-		/// @DnDArgument : "max" "3"
-		ballpick = floor(random_range(1, 3 + 1));
-	
 		/// @DnDAction : YoYo Games.Instances.Set_Alarm
 		/// @DnDVersion : 1
 		/// @DnDHash : 263E4335
@@ -145,20 +125,51 @@ if(ballpick == 2)
 	/// @DnDParent : 6E008308
 	else
 	{
-		/// @DnDAction : YoYo Games.Random.Get_Random_Number
-		/// @DnDVersion : 1
-		/// @DnDHash : 7BB7A8A2
-		/// @DnDParent : 4135A5DA
-		/// @DnDArgument : "var" "ballpick"
-		/// @DnDArgument : "type" "1"
-		/// @DnDArgument : "min" "1"
-		/// @DnDArgument : "max" "3"
-		ballpick = floor(random_range(1, 3 + 1));
-	
 		/// @DnDAction : YoYo Games.Instances.Set_Alarm
 		/// @DnDVersion : 1
 		/// @DnDHash : 0A3C801F
 		/// @DnDParent : 4135A5DA
+		/// @DnDArgument : "steps" "0"
+		/// @DnDArgument : "alarm" "1"
+		alarm_set(1, 0);
+	}
+}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 02C73181
+/// @DnDArgument : "var" "ballpick"
+/// @DnDArgument : "value" "4"
+if(ballpick == 4)
+{
+	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 19980747
+	/// @DnDParent : 02C73181
+	/// @DnDArgument : "var" "twelve_balldrop"
+	if(twelve_balldrop == 0)
+	{
+		/// @DnDAction : YoYo Games.Instances.Create_Instance
+		/// @DnDVersion : 1
+		/// @DnDHash : 788F6E46
+		/// @DnDParent : 19980747
+		/// @DnDArgument : "xpos" "room_width / 2"
+		/// @DnDArgument : "ypos" "room_height / 2"
+		/// @DnDArgument : "objectid" "obj_12ball"
+		/// @DnDSaveInfo : "objectid" "c67ad4fa-e5da-425b-bb17-b1426df8a84c"
+		instance_create_layer(room_width / 2, room_height / 2, "Instances", obj_12ball);
+	}
+
+	/// @DnDAction : YoYo Games.Common.Else
+	/// @DnDVersion : 1
+	/// @DnDHash : 162A81FD
+	/// @DnDParent : 02C73181
+	else
+	{
+		/// @DnDAction : YoYo Games.Instances.Set_Alarm
+		/// @DnDVersion : 1
+		/// @DnDHash : 3808982D
+		/// @DnDParent : 162A81FD
 		/// @DnDArgument : "steps" "0"
 		/// @DnDArgument : "alarm" "1"
 		alarm_set(1, 0);

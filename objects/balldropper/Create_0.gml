@@ -1,5 +1,11 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
+/// @DnDHash : 5173BF30
+/// @DnDArgument : "var" "twelve_balldrop"
+twelve_balldrop = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
 /// @DnDHash : 799D5A68
 /// @DnDArgument : "var" "ballpick"
 ballpick = 0;

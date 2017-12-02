@@ -2,7 +2,7 @@
     "id": "1c59d681-e5f5-4b33-8417-fdac2e77574b",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "Cursor",
+    "name": "obj_cursor",
     "eventList": [
         {
             "id": "4c9f24a8-cf9f-4025-b0e0-be3e32d9626f",

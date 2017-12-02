@@ -90,7 +90,7 @@
             "Key": "1c59d681-e5f5-4b33-8417-fdac2e77574b",
             "Value": {
                 "id": "67f14edb-851b-4d59-80a9-fa78f7dd75a8",
-                "resourcePath": "objects\\Cursor\\Cursor.yy",
+                "resourcePath": "objects\\obj_cursor\\obj_cursor.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -188,6 +188,14 @@
                 "id": "47524d3d-1ac1-47ae-9c63-1993a774100f",
                 "resourcePath": "sounds\\win\\win.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "581f7c14-193d-432f-8ccb-227893aa4c77",
+            "Value": {
+                "id": "29451801-ddc1-40ad-85cf-5de92d98a81a",
+                "resourcePath": "sprites\\spr_12ball\\spr_12ball.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -407,6 +415,14 @@
             }
         },
         {
+            "Key": "c67ad4fa-e5da-425b-bb17-b1426df8a84c",
+            "Value": {
+                "id": "085e6532-c89d-4aa3-8c16-9c36a4e677b0",
+                "resourcePath": "objects\\obj_12ball\\obj_12ball.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "cb5342d8-e8a3-4fef-9c83-dcf87842f1d8",
             "Value": {
                 "id": "260b318f-6885-4423-b07a-dfa52fbbe6f9",
@@ -506,7 +522,7 @@
             "Key": "fa585346-01ce-4d70-9a27-44bab68352b8",
             "Value": {
                 "id": "75ee0add-ed8a-46de-8e7f-c5a38167768a",
-                "resourcePath": "sprites\\sprite11\\sprite11.yy",
+                "resourcePath": "sprites\\spr_cursor\\spr_cursor.yy",
                 "resourceType": "GMSprite"
             }
         }
